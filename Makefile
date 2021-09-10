@@ -41,7 +41,7 @@ scan: images  ## Scan proxy image for vulnerabilities
 	docker scan --dependency-tree --severity=high $(EGND_DOCKER_IMAGE)
 
 lint: ## Validate Dockerfile
-	docker run --rm -i ghcr.io/hadolint/hadolint:latest-alpine /bin/hadolint --ignore=DL3008 - < ./Dockerfile
+	docker run --rm -i ghcr.io/hadolint/hadolint:latest-alpine /bin/hadolint --ignore=DL3018 --ignore=DL3022 - < ./Dockerfile
 
 test: ## Test container
 	docker run --rm $(EGND_DOCKER_IMAGE):$(IMG_VERSION) docker --version
