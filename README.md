@@ -3,7 +3,7 @@
 [![Pipeline](https://github.com/egnd/docker/actions/workflows/pipeline.yml/badge.svg)](https://github.com/egnd/docker/actions?query=workflow%3APipeline)
 ![Docker Stars](https://img.shields.io/docker/stars/egnd/docker)
 ![Docker Pulls](https://img.shields.io/docker/pulls/egnd/docker)
-![Image Size](https://img.shields.io/docker/image-size/egnd/docker/docker)
+![Image Size](https://img.shields.io/docker/image-size/egnd/docker)
 
 ### Features inside:
 * docker
