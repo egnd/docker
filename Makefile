@@ -50,3 +50,4 @@ test: ## Test container
 	docker run --rm $(EGND_DOCKER_IMAGE):$(IMG_VERSION) make -v
 	docker run --rm $(EGND_DOCKER_IMAGE):$(IMG_VERSION) envsubst -V
 	docker run --rm $(EGND_DOCKER_IMAGE):$(IMG_VERSION) grep -V
+	docker run --rm $(EGND_DOCKER_IMAGE):$(IMG_VERSION) git --version

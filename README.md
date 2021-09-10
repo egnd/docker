@@ -12,6 +12,7 @@
 * make
 * envsubst
 * grep
+* git
 
 ### Examples:
 1. Docker-compose
