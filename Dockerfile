@@ -1,4 +1,4 @@
-ARG DOCKER_VERSION=stable-git
+ARG DOCKER_VERSION=latest
 
 FROM docker:${DOCKER_VERSION}
 
